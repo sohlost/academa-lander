@@ -1,0 +1,80 @@
+:root {
+    --cream-white: #f9f5f0;
+    --orange: #ff6b35;
+    --dark-text: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-color: var(--cream-white);
+    color: var(--dark-text);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: var(--cream-white);
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--orange);
+    font-family: "Playwrite HR", cursive;
+}
+
+.nav-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: var(--dark-text);
+}
+
+section {
+    min-height: 80vh;
+    padding: 2rem;
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--orange);
+}
+
+footer {
+    background-color: var(--orange);
+    color: var(--cream-white);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-links a,
+.social-links a {
+    color: var(--cream-white);
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+h2{
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
