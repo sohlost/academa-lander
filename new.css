@@ -1,6 +1,6 @@
 :root {
     --cream-white: #f9f5f0;
-    --orange: #ff6b35;
+    --orange: #35d0ff;
     --dark-text: #333;
 }
 
@@ -36,6 +36,7 @@ nav {
     font-weight: bold;
     color: var(--orange);
     font-family: "Playwrite HR", cursive;
+  
 }
 
 .nav-links a {
@@ -83,7 +84,7 @@ h1, h2, .tagline, .cta-button, .feature-box, .video-container {
 h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: #ff6b35;
+    color: var(--orange);
     font-family: "Playwrite HR", cursive;
 }
 
